@@ -2,10 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-button:hover {
+button:hover,
+button:focus {
   background-color: #2196f3;
   color: #ffffff;
   transition: background-color 0.5s;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
 }
 .button-style {
   height: 38px;
@@ -90,9 +95,42 @@ h4 {
   color: #757575;
 }
 .position {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.17em;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.links {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+}
+.navigation {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+}
+a:link {
+  text-decoration: none;
+}
+.link-style {
+  font-style: normal;
+  text-decoration: none;
+  color: #212121;
+}
+.logo-style {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.46em;
+  letter-spacing: 3%;
+  color: #212121;
+  text-decoration: none;
 }
