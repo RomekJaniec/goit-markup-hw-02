@@ -1,22 +1,29 @@
+:root {
+  --brand-color: #2196f3;
+  --dark-color-font: #212121;
+  --less-dark-color-font: #757575;
+  --button-color: #f5f4fa;
+  --background-color-main-page: #2f303a;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--dark-color-font);
 }
 button:hover,
 button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--brand-color);
   transition: background-color 0.5s;
 }
 a:hover,
 a:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .button-style {
   height: 38px;
   border: none;
-  background-color: #f5f4fa;
+  background-color: var(--button-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-font {
   font-weight: 500;
@@ -27,93 +34,87 @@ a:focus {
   width: 200px;
   height: 50px;
   border: none;
-  background-color: #2196f3;
+  background-color: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-font-main {
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
-  line-height: 1.85em;
+  line-height: 1.85;
 }
 .logo-blue {
   font-family: Raleway;
   font-style: Bold;
   font-size: 26px;
-  line-height: 1.2em;
-  line-height: 1em;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  line-height: 1.2;
+  letter-spacing: 3%;
+  color: var(--brand-color);
 }
 .logo-black {
   font-family: Raleway;
-  font-weight: 400;
   font-size: 26px;
   line-height: 36px;
-  letter-spacing: 0.03em;
+  letter-spacing: 3%;
   color: #000000;
   text-decoration: none;
 }
-h1 {
-  background-color: #2f303a;
+.main-title-style {
+  background-color: var(--background-color-main-page);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36em;
+  line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 6%;
   text-transform: uppercase;
   color: #ffffff;
 }
-h2 {
-  font-weight: 700;
+.heading-two {
+  font-style: bold;
   font-size: 36px;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  color: #212121;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--dark-color-font);
 }
-h3 {
-  font-weight: 500;
+.name-style {
   font-size: 16px;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  color: #212121;
+  font-style: medium;
+  line-height: 1.19;
+  letter-spacing: 3%;
+  color: var(--dark-color-font);
 }
-h4 {
-  font-weight: 700;
+.lorem-heading {
+  font-style: bold;
   font-size: 14px;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  line-height: 1.14;
+  letter-spacing: 3%;
+  color: var(--dark-color-font);
 }
-.lorem {
-  font-weight: 400;
+.lorem-text {
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--less-dark-color-font);
 }
 .position {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.19;
+  letter-spacing: 3%;
+  color: var(--less-dark-color-font);
 }
 .links {
-  font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
-  line-height: 1em;
-  letter-spacing: 0.02em;
+  line-height: 1;
+  letter-spacing: 2%;
 }
 .navigation {
-  font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
-  line-height: 1em;
-  letter-spacing: 0.02em;
+  line-height: 1;
+  letter-spacing: 2%;
 }
 a:link {
   text-decoration: none;
@@ -121,16 +122,31 @@ a:link {
 .link-style {
   font-style: normal;
   text-decoration: none;
-  color: #212121;
+  color: var(--dark-color-font);
 }
 .logo-style {
   text-decoration: none;
 }
-.address {
-  font-style: normal;
+.adress {
   font-size: 14px;
-  line-height: 1.46em;
+  line-height: 1.46;
   letter-spacing: 3%;
-  color: #212121;
+  color: var(--dark-color-font);
   text-decoration: none;
+}
+.product {
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 1.71;
+  letter-spacing: 6%;
+  color: var(--dark-color-font);
+}
+.product-type {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 3%;
+  color: var(--less-dark-color-font);
+}
+.list-style {
+list-style: none;
 }
