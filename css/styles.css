@@ -140,7 +140,7 @@ body {
   letter-spacing: 2%;
   color: var(--dark-color-font);
 }
-.links-footer [href]{
+.links-footer [href] {
   font-family: Roboto;
   font-style: Regular;
   font-size: 14px;
@@ -149,13 +149,13 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .links-style-nav:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .links-style:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .links-style-footer:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .links-style {
   color: var(--less-dark-color-font);
@@ -174,6 +174,7 @@ body {
   text-decoration: none;
 }
 .adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.46;
   letter-spacing: 3%;
